@@ -140,9 +140,6 @@ def shoe_size(player_n)
     end
   end
 end
-white_check_mark
-eyes
-raised_hands
 
 
 def team_colors(team_n)
