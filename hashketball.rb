@@ -145,10 +145,6 @@ eyes
 raised_hands
 
 
-
-
-
-8:56
 def team_colors(team_n)
   game_hash.each do |key, value|
     if value[:team_name] == team_n
@@ -156,6 +152,7 @@ def team_colors(team_n)
     end
   end
 end
+
 def team_names
   game_hash.map {|key, value| value[:team_name]}
 end
@@ -166,6 +163,7 @@ def player_numbers(team_n)
     end
   end
 end
+
 def player_stats (player_n)
   game_hash.each_key do |ha|
     game_hash[ha][:players].each_entry do |playerhash|
@@ -175,6 +173,7 @@ def player_stats (player_n)
     end
   end
 end
+
 def big_shoe_rebounds
   biggest = 0
   rebounds = 0
